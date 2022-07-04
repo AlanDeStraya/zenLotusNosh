@@ -3,16 +3,30 @@
 <head>
 <meta charset='utf-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+<!-- for popup -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+
+<!-- CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> 
 <link rel='stylesheet' type='text/css' href='styles.css' />
+
+<!-- for popup -->
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/nothingofimport5557?background_color=fad1d1&primary_color=007d7e', text: 'Schedule time with me Method 3', color: '#fbc0c0', textColor: '#000000', branding: true }); }</script>
+
 <title>Zen Lotus Nosh</title>
 </head>
 <body>
   <nav>
     <ul>
-      <li><a href=''>Home</a></li>
+      <!-- <li><a href=''>Home</a></li> -->
       <li><a href=''>Instruction</a></li>
       <li><a href=''>About</a></li>
     </ul>
@@ -23,11 +37,17 @@
     <h2>Yoga and Dance Lessons</h2>
   </hero>
   <section>
-    <h3>Info</h3>
     <p>Coming soon!</p>
   </section>
+  <div class='card'>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod minus quidem aliquid laborum? Odio, ratione id illum natus placeat maxime non facilis est laboriosam sed ullam unde porro animi soluta.</p>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis mollitia provident pariatur impedit ipsam reiciendis sequi eius architecto ex ipsa, minus quis. Perferendis eius dicta amet delectus et quasi hic mollitia facere similique accusantium assumenda eum fugit, iste non aut harum accusamus ex ab corporis. Natus tenetur ab quos incidunt.</p>
+  </div>
   <footer>
-    <p>A pithy quote<br> - Nosh</p>
+    <a href='booking.html'>Schedule time with me Method 1</a>
+    <a id='method-two' href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/nothingofimport5557?hide_landing_page_details=1&background_color=ffc4c4&primary_color=008faa'});return false;">Schedule time with me Method 2</a>
   </footer>
 </body>
 </html>
+<!-- nothingofimport5557 calendly -->
