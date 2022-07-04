@@ -23,7 +23,7 @@ overflow-wrap: break-word;
 isolation: isolate;
 }
 :root {
-  --site-pink: hsl(358, 83%, 72%);
+  --site-pink: hsl(358, 85%, 82%);
   --breeze: #e0f9ff;
   /* var(--site-pink); */
 }
@@ -89,6 +89,7 @@ h1 {
   margin-left: 14rem;
   font-size: 5.4rem;
   color: var(--breeze);
+  font-family: 'Dancing Script', cursive;
 }
 
 h2, h3, p {
