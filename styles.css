@@ -49,12 +49,16 @@ isolation: isolate;
 
 
 body {
-  background-image: url("pseudo-background.jpg");
+  background-image: url("main-background.jpg");
   background-repeat: no-repeat;
-  /* background-color: var(--breeze); */
   background-size: cover;
   background-attachment: fixed;
   height: 200vh;
+}
+@media only screen and (min-width: 700px) {
+  body {
+    background-position: center;
+  }
 }
 nav {
   background: linear-gradient(90deg, var(--site-pink) 35%, hsl(179, 50%, 70%) 65%);
@@ -78,10 +82,10 @@ nav li a {
   font-family: sans-serif;
   color: var(--site-pink);
   font-size: 2rem;
-  background-color: white;
+  background-color: var(--breeze);
   padding: 0.45rem;
   border-radius: 1rem;
-  box-shadow: 0 0 4px 3px white;
+  box-shadow: 0 0 4px 3px var(--breeze);
 }
 /* .pseudo-hero {
   height: 100vh;
@@ -102,7 +106,7 @@ h1 {
 h2, h3, p {
   text-align: center;
   font-size: 3rem;
-  color: white;
+  color: var(--breeze);
 }
 a {
   text-align: center;
@@ -120,7 +124,7 @@ section {
   min-height: 500px;
   position: absolute;
   top: 100vh;
-  color: white;
+  color: var(--breeze);
   font-size: 2.9rem;
   padding: 2rem;
   box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.2);
