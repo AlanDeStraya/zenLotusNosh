@@ -61,8 +61,7 @@ body {
   }
 }
 nav {
-  background: linear-gradient(90deg, var(--site-pink) 35%, hsl(179, 50%, 70%) 65%);
-  background-color: var(--breeze);
+  background: linear-gradient(90deg, var(--site-pink) 35%, hsl(187, 50%, 70%) 65%);
   height: 7rem;
   width: 100%;
   display: flex;
