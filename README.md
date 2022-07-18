@@ -2,7 +2,7 @@
 
 Hopefully now able to deploy automatically on firebase when pull request is merged on GitHub.
 
-##ToDo list:
+## ToDo list:
 
 -info
 -booking
