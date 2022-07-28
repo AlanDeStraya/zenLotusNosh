@@ -4,10 +4,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-    background-position: center;
-  height: 200vh;
+  background-position: center;
 }
-
 section {
   height: 180vh;
 }
@@ -42,4 +40,3 @@ section {
   z-index: -1;
   margin: -2rem;
 }
-
