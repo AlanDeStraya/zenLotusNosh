@@ -9,9 +9,6 @@ padding: 0;
 input, button, textarea, select {
 font: inherit;
 }
-html, body {
-height: 100%;
-}
 body {
 line-height: 1.5;
 -webkit-font-smoothing: antialiased;
@@ -24,7 +21,10 @@ isolation: isolate;
 }
 :root {
   --site-pink: hsl(358, 85%, 82%);
+  --site-blue: hsl(187, 50%, 70%);
+  --light-pink: hsl(358, 85%, 92%);
   --breeze: #e0f9ff;
+  --site-grey: darkgrey;
   /* var(--site-pink); */
 }
 
@@ -48,20 +48,8 @@ isolation: isolate;
 }
 
 
-body {
-  background-image: url("../images/main-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 200vh;
-}
-@media only screen and (min-width: 700px) {
-  body {
-    background-position: center;
-  }
-}
 nav {
-  background: linear-gradient(90deg, var(--site-pink) 35%, hsl(187, 50%, 70%) 65%);
+  background: linear-gradient(90deg, var(--site-pink) 35%, var(--site-blue) 65%);
   height: 7rem;
   width: 100%;
   display: flex;
@@ -74,9 +62,10 @@ nav {
 }
 nav li {
   display: inline-block;
-  padding: 0 2rem;
+  padding: 0 1vw;
 }
 nav li a {
+  display: static;
   text-decoration: none;
   font-family: sans-serif;
   color: var(--site-pink);
@@ -91,6 +80,7 @@ nav li a {
   width: 100%;
   position: absolute;
 } */
+
 h1 {
   margin-top: 14rem;
   margin-left: 14rem;
@@ -100,6 +90,7 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 10;
+  display: inline-block;
 }
 
 h2, h3, p {
@@ -107,64 +98,30 @@ h2, h3, p {
   font-size: 3rem;
   color: var(--breeze);
 }
-a {
-  text-align: center;
-  font-size: 2.6rem;
-  color: var(--breeze);
-  display: block;
-}
 
-section {
-  height: 180vh;
-}
-.card {
-  width: 100%;
-  height: 80vh;
-  min-height: 500px;
-  position: absolute;
-  top: 100vh;
-  color: var(--breeze);
-  font-size: 2.9rem;
-  padding: 2rem;
-  box-shadow: 0 0 0.6rem 0 rgba(0, 0, 0, 0.2);
-  background: inherit;
-  z-index: 1;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.card::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  box-shadow: inset 0 0 2000px rgba(150, 210, 255, 0.5);
-  filter: blur(0.7rem);
-  background: inherit;
-  z-index: -1;
-  margin: -2rem;
-}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 670px) {
   nav {
     height: 3.4rem;
   }
   h1 {
     position: static;
+    width: initial;
   }
   .card p {
     font-size: 1.3rem;
   }
+  footer a {
+    font-size: clamp(2.6rem, 5vw, 6rem);
+  }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   nav {
     padding-right: 0.5rem;
     height: 5.2rem;
+    background: none;
+    background-color: var(--site-blue);
   }
   nav li {
     padding: 0 0.5rem;
@@ -187,4 +144,10 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+}
+footer a {
+  text-align: center;
+  font-size: 2.6rem;
+  color: var(--breeze);
+  margin: 10px;
 }
