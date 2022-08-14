@@ -6,7 +6,6 @@ name: Deploy Firebase on PR
   pull_request:
     branches:
       - main
-
 jobs:
   build_and_preview:
     if: '${{ github.event.pull_request.head.repo.full_name == github.repository }}'
