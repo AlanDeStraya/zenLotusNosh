@@ -1,3 +1,5 @@
+/* Styles for all pages */
+
 html {
   font-size: 62.5%;
 }
@@ -43,7 +45,7 @@ isolation: isolate;
 
 @media (prefers-reduced-motion: no-preference) {
   html {
-      scroll-behavior: smooth;
+    scroll-behavior: smooth;
   }
 }
 
@@ -99,6 +101,10 @@ h2, h3, p {
   color: var(--breeze);
 }
 
+ul {
+  margin: 3rem;
+  font-size: 2rem;
+}
 
 @media only screen and (max-width: 670px) {
   nav {
@@ -149,5 +155,16 @@ footer a {
   text-align: center;
   font-size: 2.6rem;
   color: var(--breeze);
-  margin: 10px;
+  padding: 1rem;
 }
+footer a:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.2);
+  color: white;
+}
+footer a:active {
+  background-color: rgba(128, 128, 128, 0.4);
+  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.4);
+}
+
