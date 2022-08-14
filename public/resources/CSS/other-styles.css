@@ -1,3 +1,5 @@
+/* Styles for pages other than index */
+
 
 body {
   background-color: var(--light-pink);
@@ -61,6 +63,8 @@ h1.secondary-heading {
   border-radius: 15px;
   height: 100%;
 }
+
+
 @media only screen and (max-width: 670px) {
   .about {
     flex-direction: column;
