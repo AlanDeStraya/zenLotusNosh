@@ -3,6 +3,7 @@
 Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
+- color, content, layout meeting
 - info
 - booking
 - pricing
@@ -15,6 +16,7 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 ### classes
 - 5 days/week?
 - day 5?
+- packages/pricing into classes page?
 
 ### yoga poses
 - soul mission? 
