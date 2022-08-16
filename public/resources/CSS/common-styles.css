@@ -73,8 +73,8 @@ nav li a {
   color: var(--site-pink);
   font-size: 2rem;
   background-color: var(--breeze);
-  padding: 0.45rem;
-  border-radius: 1rem;
+  padding: 1rem;
+  border-radius: 50%;
   box-shadow: 0 0 4px 3px var(--breeze);
 }
 /* .pseudo-hero {
