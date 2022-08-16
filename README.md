@@ -15,5 +15,4 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 # to do
 - change heading to all blue
-- merge preview and main
-- background hero
+- background hero (done?)
