@@ -1,11 +1,19 @@
 /* Styles for index only */
 
+/*
 body {
   background-image: url("../images/main-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}*/
+.hero {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: calc(67vw - 50vh);
+  z-index: -1;
 }
 section {
   height: 180vh;
