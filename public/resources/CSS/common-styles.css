@@ -58,7 +58,6 @@ nav {
 }
 #hamitems div {
 	background-color: var(--site-grey);
-	box-shadow: 0 0 5px 5px var(--site-grey);
 	margin: 2rem;
   text-align: center;
 	border-radius: 5px;
