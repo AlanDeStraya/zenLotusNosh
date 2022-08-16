@@ -53,7 +53,7 @@ isolation: isolate;
 
 nav {
   width: 100%;
-  background: linear-gradient(90deg, var(--site-pink) 35%, var(--site-blue) 65%);
+  background-color: var(--site-blue);
 	display: flex;
 }
 #hamitems div {
@@ -66,7 +66,7 @@ nav {
 }
 #hamitems {
   display: flex;
-	flex-grow: 1;
+  flex-grow: 1;
 }
 #hamitems a {
   flex-grow: 1;
