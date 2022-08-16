@@ -73,15 +73,10 @@ nav {
   flex-basis: 0;
   color: var(--breeze);
   font-family: sans-serif;
-  color: var(--site-pink);
-  font-size: 2rem;
-  background-color: var(--breeze);
-  padding: 1rem;
-  border-radius: 50%;
-  box-shadow: 0 0 4px 3px var(--breeze);
+  border-radius: 30%;
   text-decoration: none;
   font-size: 1.6rem;
-	font-weight: bold;
+  font-weight: bold;
 }
 #hamitems div:hover {
   background: #999;
