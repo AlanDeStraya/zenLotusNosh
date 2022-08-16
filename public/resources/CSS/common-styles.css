@@ -27,6 +27,7 @@ isolation: isolate;
   --light-pink: hsl(358, 85%, 92%);
   --breeze: #e0f9ff;
   --site-grey: darkgrey;
+	--dark-grey: #292929;
   /* var(--site-pink); */
 }
 
@@ -51,24 +52,26 @@ isolation: isolate;
 
 
 nav {
-  background: linear-gradient(90deg, var(--site-pink) 35%, var(--site-blue) 65%);
-  height: 7rem;
   width: 100%;
+  background: linear-gradient(90deg, var(--site-pink) 35%, var(--site-blue) 65%);
+	display: flex;
+}
+#hamitems div {
+	background-color: var(--site-grey);
+	box-shadow: 0 0 5px 5px var(--site-grey);
+	margin: 2rem;
+  text-align: center;
+	border-radius: 5px;
+	padding: 1px 6px;
+}
+#hamitems {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 4rem;
-  position: fixed;
-  top: 0;
-  z-index: 9;
+	flex-grow: 1;
 }
-nav li {
-  display: inline-block;
-  padding: 0 1vw;
-}
-nav li a {
-  display: static;
-  text-decoration: none;
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  color: var(--breeze);
   font-family: sans-serif;
   color: var(--site-pink);
   font-size: 2rem;
@@ -76,7 +79,25 @@ nav li a {
   padding: 1rem;
   border-radius: 50%;
   box-shadow: 0 0 4px 3px var(--breeze);
+  text-decoration: none;
+  font-size: 1.6rem;
+	font-weight: bold;
 }
+#hamitems div:hover {
+  background: #999;
+	box-shadow: 0 0 5px 5px #999;
+}
+nav label:hover {
+	background: red;
+}
+#hamnav label, #hamburger {
+  display: none;
+}
+/*nav a {
+  padding: 0.45rem;
+}*/
+
+/******************************************/
 /* .pseudo-hero {
   height: 100vh;
   width: 100%;
@@ -106,46 +127,11 @@ ul {
   font-size: 2rem;
 }
 
-@media only screen and (max-width: 670px) {
-  nav {
-    height: 3.4rem;
-  }
-  h1 {
-    position: static;
-    width: initial;
-  }
-  .card p {
-    font-size: 1.3rem;
-  }
-  footer a {
-    font-size: clamp(2.6rem, 5vw, 6rem);
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  nav {
-    padding-right: 0.5rem;
-    height: 5.2rem;
-    background: none;
-    background-color: var(--site-blue);
-  }
-  nav li {
-    padding: 0 0.5rem;
-  }
-  h1 {
-    margin-left: 3rem;
-    font-size: 3.8rem;
-  }
-  .card p {
-    font-size: 2.2rem;
-  }
-}
-
 
 footer {
   width: 100%;
   height: 20vh;
-  background-color: #292929;
+  background-color: var(--dark-grey);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -153,7 +139,7 @@ footer {
 }
 footer a {
   text-align: center;
-  font-size: 2.6rem;
+  font-size: clamp(2rem, 3vw, 4rem);
   color: var(--breeze);
   padding: 1rem;
 }
@@ -168,3 +154,70 @@ footer a:active {
   box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.4);
 }
 
+
+
+@media only screen and (max-width: 768px) {
+	nav {
+		display: block;
+	}
+	#hamitems {
+		display: none;
+	}
+	#hamitems div{
+		margin: 0 0 1px 0;
+		box-shadow: none;
+		padding: 1rem;
+		border-radius: 0;
+	}
+	#hamitems div:hover {
+		background-color: #999;
+		box-shadow: none;
+	}
+	#hamitems div:active {
+		background-color: #888
+	}
+  #hamitems a {
+    display: block;
+    width: 100%;
+  }
+	#hamnav {
+		text-align: right;
+	}
+  #hamnav label {
+    display: inline-block;
+    color: var(--light-pink);
+    background: var(--site-blue);
+    font-style: normal;
+    font-size: 2em;
+    padding: 10px;
+		user-select: none;
+  }
+	#hamnav label:hover {
+		background-color: hsl(187, 50%, 77%);
+	}
+	#hamnav label:active {
+		background-color: hsl(187, 50%, 85%);
+	}
+	#hamnav input:checked ~ #hamitems {
+		display: block;
+		transition-duration: 0.4s;
+	}
+  /******************************************/
+  h1 {
+    position: static;
+    width: initial;
+  }
+  .card p {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    margin-left: 3rem;
+    font-size: 3.8rem;
+  }
+  .card p {
+    font-size: 2.2rem;
+  }
+}
