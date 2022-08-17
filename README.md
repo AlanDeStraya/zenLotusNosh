@@ -5,7 +5,6 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 ## ToDo list:
 ### pre- MVP meeting
 - add photos
-- more elegant font
 ### MVP Meeting
 - nav colors/buttons
 - font, styling content sections
