@@ -3,16 +3,17 @@
 Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
-- color, content,
+### MVP
+- font styling
+- background hero (done?)
+- add photos
+### soon
+- add reviews
+### later
+- review submission form
 - videos
-- web/mobile
-
 
 ### classes
 - 5 days/week?
 - packages/pricing into classes page?
 
-
-# to do
-- change heading to all blue
-- background hero (done?)
