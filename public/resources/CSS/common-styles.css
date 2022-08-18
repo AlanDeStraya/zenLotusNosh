@@ -213,17 +213,16 @@ section {
 }
 .about img {
   border-radius: 15px;
-  width: 100%;
+  max-height: 80vh;
 }
 .about div {
-  width: 50%;
+  width: 100%;
   padding: 30px;
 }
 .about p {
-  background-color: var(--site-grey);
-  padding: 15px;
+  background-color: var(--breeze);
+  padding: 30px;
   border-radius: 15px;
-  height: 100%;
 }
 
 footer {
