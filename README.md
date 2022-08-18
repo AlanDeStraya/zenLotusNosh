@@ -11,9 +11,15 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 - nav colors/buttons
 - font, styling content sections
 - We go with white on grey, grey on white for page text? rgb(51 65 87)
+## from meeting
+- change hero for mobile
+- contact form
+- footer have booking, email, insta
+- main page blurb[click to book], white, about, photo, more about, other photo
 ### soon
 - add testimonials
 - logo in top corner
+- site map
 ### later
 - review submission form
 - videos
