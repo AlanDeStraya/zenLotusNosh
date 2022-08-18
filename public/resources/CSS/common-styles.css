@@ -52,6 +52,10 @@ isolation: isolate;
   }
 }
 
+body {
+	background-color: var(--dark-grey);
+}
+
 nav {
   width: 100%;
   background-color: var(--site-blue);
@@ -177,6 +181,9 @@ p {
   padding: 2rem;
   text-align: center;
 }
+.card a {
+	color: var(--site-blue);
+}
 ul {
   margin: 3rem;
   font-size: 2rem;
@@ -207,23 +214,21 @@ section {
 }
 
 .about {
+	width: 100%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+	align-items: center;
+	padding: 30px;
+  background-color: var(--breeze);
 }
 .about img {
   border-radius: 15px;
-  width: 100%;
-}
-.about div {
-  width: 50%;
-  padding: 30px;
+  max-height: 80vh;
+	max-width: 90%;
 }
 .about p {
-  background-color: var(--site-grey);
-  padding: 15px;
+  padding: 30px;
   border-radius: 15px;
-  height: 100%;
 }
 
 footer {
@@ -234,12 +239,18 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+	padding: 20px;
+}
+footer p {
+	color: white;
+	margin: 0;
+  padding: 0.5rem;
 }
 footer a {
   text-align: center;
   font-size: clamp(2.3rem, 3vw, 3.3rem);
   color: var(--breeze);
-  padding: 1rem;
+  padding: 0.5rem;
 }
 footer a:hover {
   background-color: rgba(128, 128, 128, 0.2);
@@ -305,14 +316,6 @@ footer a:active {
   h1 {
     position: static;
     width: initial;
-  }
-  .card p {
-    font-size: 1.3rem;
-  }
-}
-
-@media only screen and (max-width: 1000px) {
-  h1 {
     margin-left: 3rem;
     font-size: 3.8rem;
   }
@@ -321,22 +324,27 @@ footer a:active {
   }
 }
 
+@media only screen and (max-width: 768px) {
+	.hero {
+		position: fixed;
+		height: 100vh;
+		width: auto;
+		top: 0;
+		left: calc(-37vh + 50vw);
+		z-index: -1;
+	}
+	.about p {
+		font-size: 18px;
+	}
+	footer {
+		flex-direction: column-reverse;
+		flex-wrap: nowrap;
+	}
+}
+
 @media only screen and (max-width: 500px) {
   .error-div p {
     font-size: 22px;
   }
 }
 
-
-
-@media only screen and (max-width: 670px) {
-  .about {
-    flex-direction: column;
-  }
-  .about:last-of-type {
-    flex-direction: column-reverse;
-  }
-  .about img, .about div {
-    width: 100%;
-  }
-}
