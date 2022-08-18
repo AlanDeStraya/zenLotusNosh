@@ -25,6 +25,7 @@ isolation: isolate;
 :root {
   --site-pink: #dc9e9c;
   --site-blue: hsl(193, 56%, 54%);
+  --text-blue: hsl(193, 56%, 13%);
   --light-pink: hsl(358, 85%, 94%);
   --breeze: #e0f9ff;
   --site-grey: darkgrey;
@@ -101,7 +102,7 @@ h1 {
 }
 h1.secondary-heading {
   margin-top: 4rem;
-  background-color: var(--site-pink);
+  background-color: var(--site-blue);
   padding: 5px 15px;
   border-radius: 10px;
   line-height: 1;
@@ -152,6 +153,7 @@ h2 {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 2rem;
+  color: var(--text-blue);
 }
 h2.index {
   color: var(--breeze);
@@ -164,6 +166,7 @@ h3 {
 p {
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
+  color: var(--text-blue);
 }
 .card {
   margin-top: 70vh;

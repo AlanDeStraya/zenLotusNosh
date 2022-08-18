@@ -5,17 +5,15 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 ## ToDo list:
 ### pre- MVP meeting
 - add photos
-- We go with white on grey, grey on white for page text? rgb(51 65 87)
-- hey can we change the instagram to be only the insta log and up by the coffee link?
-- condense menu tabs
-- logo in top corner
+- about me content
 ### MVP Meeting
 - show how i can make slight edits so I don’t have to bug you each time for small verbage here and there
 - nav colors/buttons
 - font, styling content sections
-- about me content
+- We go with white on grey, grey on white for page text? rgb(51 65 87)
 ### soon
 - add testimonials
+- logo in top corner
 ### later
 - review submission form
 - videos
