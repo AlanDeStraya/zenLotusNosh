@@ -208,6 +208,7 @@ section {
 
 .about {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 .about img {
