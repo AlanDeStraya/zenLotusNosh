@@ -52,10 +52,6 @@ isolation: isolate;
   }
 }
 
-.hero-back-color {
-  background-color: var(--dark-grey);
-}
-
 nav {
   width: 100%;
   background-color: var(--site-blue);
@@ -95,6 +91,7 @@ main {
   min-height: 80vh;
   width: 100%;
   padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 h1 {
