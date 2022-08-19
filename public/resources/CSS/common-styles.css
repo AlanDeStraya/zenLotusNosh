@@ -239,6 +239,9 @@ footer {
 	padding: 20px;
 	margin-top: 3rem;
 }
+.contact {
+	font-size: clamp(1.8rem, 3vw, 2.5rem);
+}
 footer p {
 	color: white;
 	margin: 0;
