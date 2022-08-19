@@ -52,8 +52,8 @@ isolation: isolate;
   }
 }
 
-body {
-	background-color: var(--dark-grey);
+.index {
+  background-color: var(--dark-grey);
 }
 
 nav {
