@@ -237,6 +237,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 	padding: 20px;
+	margin-top: 3rem;
 }
 footer p {
 	color: white;
