@@ -3,24 +3,19 @@
 Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
-### pre- MVP meeting
-- add photos
-- about me content
-### MVP Meeting
 - show how i can make slight edits so I don’t have to bug you each time for small verbage here and there
+- add photos
 - nav colors/buttons
 - font, styling content sections
-- We go with white on grey, grey on white for page text? rgb(51 65 87)
-## from meeting
-- change hero for mobile
-- contact form
-- footer have booking, email, insta
-- main page blurb[click to book], white, about, photo, more about, other photo
+- change hero for mobile (?)
+
 ### soon
 - add testimonials
 - logo in top corner
 - site map
+
 ### later
+- contact form
 - review submission form
 - videos
 - 5 days/week?
