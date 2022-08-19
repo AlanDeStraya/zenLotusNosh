@@ -52,7 +52,7 @@ isolation: isolate;
   }
 }
 
-.index {
+.hero-back-color {
   background-color: var(--dark-grey);
 }
 
