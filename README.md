@@ -8,7 +8,6 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 - nav colors/buttons
 - font, styling content sections
 - change hero for mobile (?)
-- main blurb link color
 - center photos/info for wide screens
 - add warrior pose to poses page
 
