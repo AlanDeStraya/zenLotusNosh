@@ -113,6 +113,9 @@ h1.secondary-heading {
   top: calc(-67vw + 50vh);
   z-index: -1;
 }
+.hero-link {
+  color: hsl(193, 56%, 77%);
+}
 .top-right {
   float: right;
   display: flex;
