@@ -84,9 +84,10 @@ nav {
 }
 
 main {
-  margin: 0;
+  margin: 0 auto;
   min-height: 80vh;
   width: 100%;
+  max-width: 1000px;
   padding-top: 60px;
   padding-bottom: 30px;
 }
@@ -190,6 +191,9 @@ ul {
   margin: 3rem;
   font-size: 2rem;
 }
+ul ul {
+  margin: 1rem 3rem;
+}
 li {
   margin-bottom: 1.5rem;
 }
@@ -247,11 +251,11 @@ footer {
   flex-wrap: wrap;
 	padding: 3rem;
 }
-.contact a, .contact p {
+.contact a, .contact p, .contact i {
 	font-size: clamp(1.6rem, 2vw, 2.2rem);
 }
 footer p {
-	color: white;
+	color: var(--breeze);
 	margin: 0;
   padding: 0.5rem;
 }
@@ -262,14 +266,10 @@ footer a {
   padding: 0.5rem;
 }
 footer a:hover {
-  background-color: rgba(128, 128, 128, 0.2);
-  border-radius: 8px;
-  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.2);
   color: white;
 }
 footer a:active {
-  background-color: rgba(128, 128, 128, 0.4);
-  box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.4);
+  color: grey;
 }
 
 
