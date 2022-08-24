@@ -3,17 +3,19 @@
 Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
-- show how i can make slight edits so I don’t have to bug you each time for small verbage here and there
-- add photos
+- buy button
+- events page
+- events preview
+- crop group1.jpg, move to top
 - center photos/info for wide screens
-- add warrior pose to poses page
-- styling content sections
-- confirm change hero on mobile
 - site map
 
 ### soon
+- show how i can make slight edits so I don’t have to bug you each time for small verbage here and there
+- add photos
 - add testimonials
 - logo in top corner
+- favicon
 
 ### later
 - contact form
