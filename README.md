@@ -4,10 +4,9 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
 - buy button
+- buy page (instructions)
 - events page
 - events preview
-- crop group1.jpg, move to top
-- center photos/info for wide screens
 - site map
 
 ### soon
