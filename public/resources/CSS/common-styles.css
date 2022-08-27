@@ -246,6 +246,8 @@ section {
   padding: 5px 10px;
   margin: 2rem;
   text-transform: uppercase;
+  font-size: 2.2rem;
+  text-decoration: none;
 }
 .book-now-button:hover {
   background-color:hsl(193, 56%, 69%);
