@@ -206,10 +206,9 @@ section {
   box-shadow: 0 0 5px 5px var(--site-grey);
   z-index: 2;
   opacity: 0.9;
-  height: 65vh;
 }
 #error-image {
-  height: 40vh;
+  width: 40vw;
   margin: 15px auto;
   display: block;
   border-radius: 30px;
@@ -244,9 +243,10 @@ section {
   color: var(--breeze);
   border-radius: 2px;
   padding: 1rem 1.7rem;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-transform: uppercase;
-  font-size: 2.2rem;
+  font-size: 1.9rem;
   text-decoration: none;
 }
 .book-now-button:hover {
