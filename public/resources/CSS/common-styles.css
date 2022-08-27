@@ -238,6 +238,21 @@ section {
   width: 80vw;
   margin: 3rem auto;
 }
+.book-now-button {
+  background-color: var(--site-blue);
+  font-family: Quicksand;
+  color: var(--breeze);
+  border-radius: 2px;
+  padding: 5px 10px;
+  margin: 2rem;
+  text-transform: uppercase;
+}
+.book-now-button:hover {
+  background-color:hsl(193, 56%, 69%);
+}
+.book-now-button:active {
+  color: black;
+}
 footer {
   width: 100%;
   min-height: 20vh;
