@@ -206,10 +206,9 @@ section {
   box-shadow: 0 0 5px 5px var(--site-grey);
   z-index: 2;
   opacity: 0.9;
-  height: 65vh;
 }
 #error-image {
-  height: 40vh;
+  width: 40vw;
   margin: 15px auto;
   display: block;
   border-radius: 30px;
@@ -237,6 +236,24 @@ section {
   max-width: 800px;
   width: 80vw;
   margin: 3rem auto;
+}
+.book-now-button {
+  background-color: var(--site-blue);
+  font-family: Quicksand;
+  color: var(--breeze);
+  border-radius: 2px;
+  padding: 1rem 1.7rem;
+  text-transform: uppercase;
+  font-size: 1.9rem;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1.5rem 0;
+}
+.book-now-button:hover {
+  background-color:hsl(193, 56%, 69%);
+}
+.book-now-button:active {
+  color: black;
 }
 footer {
   width: 100%;
