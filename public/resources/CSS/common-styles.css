@@ -92,9 +92,9 @@ main {
   padding-bottom: 30px;
 }
 #events-main {
-  background-color: var(--light-pink);
-  background-image: url('./resources/images/events-background.jpg');
-  /* cover repeat*/
+  background-color: var(--site-pink);
+  background-image: url('../images/events-background.jpg');
+  background-size: cover;
 }
 
 h1 {
@@ -209,7 +209,9 @@ section {
 .event-card {
   background-color: white;
   padding: 20px;
-
+  width: 80%;
+  margin: 0 auto;
+  opacity: 0.9;
 }
 
 .error-div {
