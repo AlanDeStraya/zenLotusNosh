@@ -29,7 +29,7 @@ isolation: isolate;
   --light-pink: hsl(358, 85%, 94%);
   --breeze: #e0f9ff;
   --site-grey: darkgrey;
-	--dark-grey: #292929;
+  --dark-grey: #292929;
   /* var(--site-pink); */
 }
 
@@ -90,6 +90,11 @@ main {
   max-width: 1000px;
   padding-top: 60px;
   padding-bottom: 30px;
+}
+#events-main {
+  background-color: var(--light-pink);
+  background-image: url('./resources/images/events-background.jpg');
+  /* cover repeat*/
 }
 
 h1 {
@@ -199,6 +204,12 @@ li {
 }
 section {
   padding: 0 clamp(2.5rem, 10vw, 9rem);
+}
+
+.event-card {
+  background-color: white;
+  padding: 20px;
+
 }
 
 .error-div {
