@@ -4,7 +4,7 @@
 
 name: Deploy Preview
 'on':
-  pull_request:
+  push:
     branches:
       - preview
 jobs:
