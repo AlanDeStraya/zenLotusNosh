@@ -26,3 +26,4 @@ Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 - blue hsl(193, 56%, 54%) #48AECB rgb(72, 174, 203)
 - ?template: Menus? sub-menus?
 - https://www.wix.com/website-template/view/html/1722?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%3Fcriteria%3Dyoga&tpClick=view_button&esi=44ae6e1c-702d-4be7-9bc2-cf15ee8635ab
+
