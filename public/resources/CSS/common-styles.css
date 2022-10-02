@@ -91,23 +91,46 @@ main {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#events-main {
-  background-color: var(--light-pink);
-  background-image: url('../images/events-background.jpg');
-  background-size: cover;
+#main-extra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+#testimonials {
+  background-color: white;
+  padding: 20px;
+  flex-grow: 1;
+}
+#testimonials p {
+  font-size: 16px;
+  width: 300px;
+}
+#testimonials a {
+  font-size: 12px;
 }
 #events-preview {
   background-color: var(--light-pink);
-  padding: 20px 0;
+  padding: 20px;
+  flex-grow: 1;
 }
 #events-preview img {
-  width: 50%;
+  width: 300px;
 }
 #events-preview-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+#events-preview a {
+  color: black;
+}
+
+#events-main {
+  background-color: var(--light-pink);
+  background-image: url('../images/events-background.jpg');
+  background-size: cover;
+}
+
 h1 {
   margin: 10rem 4rem 4rem 14rem;
   font-size: 5.4rem;
@@ -212,6 +235,16 @@ ul ul {
 }
 li {
   margin-bottom: 1.5rem;
+}
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 16px;
+  padding-right: 15px;
+}
+aside a {
+  color: var(--site-blue);
 }
 section {
   padding: 0 clamp(2.5rem, 10vw, 9rem);
@@ -351,6 +384,7 @@ footer a:active {
     display: block;
     width: 100%;
     margin-left: 0;
+    border-radius: 0;
   }
   #hamnav {
     text-align: right;
