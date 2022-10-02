@@ -55,11 +55,11 @@ isolation: isolate;
 nav {
   width: 100%;
   background-color: var(--site-blue);
-	display: flex;
+  display: flex;
 }
 #hamitems div {
   text-align: center;
-	border-radius: 5px;
+  border-radius: 5px;
 }
 #hamitems {
   display: flex;
@@ -71,13 +71,13 @@ nav {
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: bold;
-	margin: 0.7rem;
-	padding: 1px 6px;
+  margin: 0.7rem;
+  padding: 1px 6px;
   text-align: center;
   border-radius: 5px;
 }
 #hamitems a:hover {
-	background-color: var(--site-grey);
+  background-color: var(--site-grey);
 }
 #hamnav label, #hamburger {
   display: none;
@@ -88,11 +88,45 @@ main {
   min-height: 80vh;
   width: 100%;
   max-width: 1000px;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
+#main-extra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+#testimonials {
+  background-color: white;
+  padding: 20px;
+  flex-grow: 1;
+}
+#testimonials p {
+  font-size: 16px;
+  width: 300px;
+}
+#testimonials a {
+  font-size: 12px;
+}
+#events-preview {
+  background-color: var(--light-pink);
+  padding: 20px;
+  flex-grow: 1;
+}
+#events-preview img {
+  width: 300px;
+}
+#events-preview-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#events-preview a {
+  color: black;
+}
+
 #events-main {
-  background-color: var(--site-pink);
+  background-color: var(--light-pink);
   background-image: url('../images/events-background.jpg');
   background-size: cover;
 }
@@ -202,6 +236,16 @@ ul ul {
 li {
   margin-bottom: 1.5rem;
 }
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 16px;
+  padding-right: 15px;
+}
+aside a {
+  color: var(--site-blue);
+}
 section {
   padding: 0 clamp(2.5rem, 10vw, 9rem);
 }
@@ -212,6 +256,18 @@ section {
   width: 80%;
   margin: 0 auto;
   opacity: 0.9;
+}
+.event-card-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.event-card-flex img {
+  height: 30rem;
+}
+.event-card-flex ul {
+  width: 40rem;
+  height: 30rem;
 }
 
 .error-div {
@@ -235,8 +291,8 @@ section {
 	width: 100%;
   display: flex;
   flex-direction: column;
-	align-items: center;
-	padding: 30px;
+  align-items: center;
+  padding: 30px;
   background-color: var(--breeze);
 }
 .about img {
@@ -282,11 +338,11 @@ footer {
 	padding: 3rem;
 }
 .contact a, .contact p, .contact i {
-	font-size: clamp(1.6rem, 2vw, 2.2rem);
+  font-size: clamp(1.6rem, 2vw, 2.2rem);
 }
 footer p {
-	color: var(--breeze);
-	margin: 0;
+  color: var(--breeze);
+  margin: 0;
   padding: 0.5rem;
 }
 footer a {
@@ -305,33 +361,34 @@ footer a:active {
 
 
 @media only screen and (max-width: 1000px) {
-	nav {
-		display: block;
-	}
-	#hamitems {
-		display: none;
-	}
-	#hamitems div{
-		margin: 0 0 1px 0;
-		box-shadow: none;
-		padding: 1rem;
-		border-radius: 0;
-	}
-	#hamitems div:hover {
-		background-color: #999;
-		box-shadow: none;
-	}
-	#hamitems div:active {
-		background-color: #888
-	}
+  nav {
+    display: block;
+  }
+  #hamitems {
+    display: none;
+  }
+  #hamitems div{
+    margin: 0 0 1px 0;
+    box-shadow: none;
+    padding: 1rem;
+    border-radius: 0;
+  }
+  #hamitems div:hover {
+    background-color: #999;
+    box-shadow: none;
+  }
+  #hamitems div:active {
+    background-color: #888
+  }
   #hamitems a {
     display: block;
     width: 100%;
     margin-left: 0;
+    border-radius: 0;
   }
-	#hamnav {
-		text-align: right;
-	}
+  #hamnav {
+    text-align: right;
+  }
   #hamnav label {
     display: inline-block;
     color: var(--light-pink);
@@ -339,18 +396,18 @@ footer a:active {
     font-style: normal;
     font-size: 2em;
     padding: 10px;
-		user-select: none;
+    user-select: none;
   }
-	#hamnav label:hover {
-		background-color: hsl(187, 50%, 77%);
-	}
-	#hamnav label:active {
-		background-color: hsl(187, 50%, 85%);
-	}
-	#hamnav input:checked ~ #hamitems {
-		display: block;
-		transition-duration: 0.4s;
-	}
+  #hamnav label:hover {
+    background-color: hsl(187, 50%, 77%);
+  }
+  #hamnav label:active {
+    background-color: hsl(187, 50%, 85%);
+  }
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+    transition-duration: 0.4s;
+  }
   /******************************************/
   h1 {
     position: static;
@@ -364,21 +421,27 @@ footer a:active {
 }
 
 @media only screen and (max-width: 768px) {
-	.hero {
-		position: fixed;
-		height: 100vh;
-		width: auto;
-		top: 0;
-		left: calc(-37vh + 50vw);
-		z-index: -1;
-	}
-	.about p {
-		font-size: 18px;
-	}
-	footer {
-		flex-direction: column-reverse;
-		flex-wrap: nowrap;
-	}
+  .hero {
+    position: fixed;
+    height: 100vh;
+    width: auto;
+    top: 0;
+    left: calc(-37vh + 50vw);
+    z-index: -1;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  footer {
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+  }
+  .event-card-flex img {
+    height: 25rem;
+  }
+  .event-card-flex ul {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
