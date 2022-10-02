@@ -3,8 +3,6 @@
 Site files for Zen Lotus Nosh, Yoga instructor in Ottawa.
 
 ## ToDo list:
-- events preview
-- add testimonials
 - site map
 
 ### soon
