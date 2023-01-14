@@ -264,7 +264,6 @@ section {
   gap: 2rem;
 }
 .event-card-flex img {
-  max-width: 30rem;
   max-height: 30rem;
 }
 .event-card-flex ul {
