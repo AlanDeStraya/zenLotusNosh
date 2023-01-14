@@ -257,6 +257,10 @@ section {
   margin: 0 auto 5rem;
   opacity: 0.9;
 }
+.event-card p {
+  text-align: center;
+  font-size: 2rem;
+}
 .event-card-flex {
   display: flex;
   flex-wrap: wrap;
